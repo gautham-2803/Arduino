@@ -12,7 +12,7 @@ ser = serial.Serial('COM5', 9600)
 # IFTTT details
 
 EVENT_NAME = "too_bright" 
-KEY = "d23A6rhN16sxMd_kIk0603" #enter your maker key 
+KEY = "" #enter your maker key 
 MAKER_URL = "https://maker.ifttt.com/trigger/{}/json/with/key/{}".format(EVENT_NAME, 
 KEY) 
 
