@@ -3,7 +3,7 @@ import random
 import time
 import requests 
 import math
-
+#lets import client from pushsafer
 new_values =[]
 gsr_threshold = 500
 heart_threshold = 100
