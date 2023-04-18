@@ -22,7 +22,7 @@ def read_heart_gsr(ser):
     #writing command to begin collecting data
     print("hi")
     new_values = ser.readline().decode('utf-8').strip()
-    new_values = new_values.split(';')
+    new_values = new_values.split(' ')
     print("length")
     print(len(new_values))
 
