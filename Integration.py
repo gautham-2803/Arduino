@@ -4,6 +4,7 @@ import time
 import requests 
 import math
 #lets import client from pushsafer
+# okay 
 new_values =[]
 gsr_threshold = 500
 heart_threshold = 100
