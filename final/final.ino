@@ -68,22 +68,26 @@ void loop() {
   long sum = 0;
   double xyz[3];
   double ax, ay, az;
-  adxl.getAcceleration(xyz);
-  ax = abs(xyz[0]);
-  ay = abs(xyz[1]);
-  az = abs(xyz[2]);
+  // adxl.getAcceleration(xyz);
+  // ax = abs(xyz[0]);
+  // ay = abs(xyz[1]);
+  // az = abs(xyz[2]);
+  ax = random(1,5);
+  ay = random(1,5);
+  az = random(1,6);
 
   for (int i = 0; i < 10; i++)  //Average the 10 measurements to remove the glitch
   {
-    sensorValue = analogRead(GSR);
+    // sensorValue = analogRead(GSR);
+    sensorValue = random(200,500);
     sum += sensorValue;
     delay(5);
   }
   gsr_average = sum / 10;
 
-  if (pulseSensor.sawStartOfBeat()) {
-    // int BPM = pulseSensor.getBeatsPerMinute();
-  }
+  // if (pulseSensor.sawStartOfBeat()) {
+  //   // int BPM = pulseSensor.getBeatsPerMinute();
+  // }
 
   int BPM = random(60, 80);
 

@@ -3,19 +3,23 @@ import random
 import time
 import requests 
 import math
+from pushsafer import Client
 #lets import client from pushsafer
 # okay 
 new_values =[]
 gsr_threshold = 250
 heart_threshold = 100
 ser = serial.Serial('COM3', 9600)
+client = Client('KJaaMVZCG8TN3uFrgwO2')
+resp = client.send_message("Hey are you okay?","Consent Message","66952",None, "3","2","https://www.pushsafer.com","Open Pushsafer","0","4","60","None","1","","Yes,No,Maybe")
+flag = 0
 
 # IFTTT details
 
-EVENT_NAME = "too_bright" 
-KEY = "" #enter your maker key 
-MAKER_URL = "https://maker.ifttt.com/trigger/{}/json/with/key/{}".format(EVENT_NAME, 
-KEY) 
+# EVENT_NAME = "too_bright" 
+# KEY = "" #enter your maker key 
+# MAKER_URL = "https://maker.ifttt.com/trigger/{}/json/with/key/{}".format(EVENT_NAME, 
+# KEY) 
 
 # read gsr and heart data
 def read_sensor(ser):
@@ -69,13 +73,30 @@ def data_process():
             print("Calling confirmation")
             # total_avg = sum(gsr_data,heart_data,acc_data,acc_data2)/3
         # if not, the user is probably working out and is there is an increase in HR and GSR 
-            status = 400 
-            attempts = 0 
-            while status >= 400 and attempts <= 5: 
-                req = requests.post(url=MAKER_URL, data=total_avg) 
-                status = req.status_code 
-                attempts += 1 
-                time.sleep(1)    
+            # status = 400 
+            # attempts = 0 
+            # while status >= 400 and attempts <= 5: 
+            #     req = requests.post(url=MAKER_URL, data=total_avg) 
+            #     status = req.status_code 
+            #     attempts += 1 
+            #     time.sleep(1)
+
+            if flag == 0:    
+                resp = client.send_message("Hey are you okay?","Consent Message","66952",None, "3","2","https://www.pushsafer.com","Open Pushsafer","0","4","60","None","1","","Yes,No,Maybe")
+                flag = 1
+                link = "https://www.pushsafer.com/api-m?k=KJaaMVZCG8TN3uFrgwO2&d=66952"
+                f = requests.get(link)
+                f = f.json()
+                message_id = list(f['messages'].keys())[0]
+                x = f['messages'][message_id]['answer']
+                if x == "Yes":
+                    resp = client.send_message("Your kid is experiencing a panic attack. Please consider going to them","Emergency Alert","66952",None, "3","2","https://www.pushsafer.com","Open Pushsafer","0","4","60","None","1")
+                else:
+                    data_process()
+            else:
+                resp = client.send_message("Your kid is experiencing a panic attack. This is a second alert. Please consider going to them","Emergency Alert","66952",None, "3","2","https://www.pushsafer.com","Open Pushsafer","0","4","60","None","1")
+                
+
         else:
             print("Looks like Person is working out")
             data_process()
