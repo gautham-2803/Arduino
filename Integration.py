@@ -59,7 +59,7 @@ def data_process():
     global flag
     if gsr_value < gsr_threshold and heart_rate > heart_threshold:
 
-        if ax < 1.5 and ay < 1.5 and az < 1.5:
+        if ax < 1 and ay < 1 and az < 1:
             # calll ifttt
             print("Calling confirmation")
             # total_avg = sum(gsr_data,heart_data,acc_data,acc_data2)/3
