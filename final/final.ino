@@ -1,5 +1,7 @@
 #include <Wire.h>
 #include <ADXL345.h>
+#include <SoftwareSerial.h>
+
 #define USE_ARDUINO_INTERRUPTS true
 #include <PulseSensorPlayground.h>
 
@@ -8,11 +10,15 @@ int sensorValue = 0;
 int gsr_average = 0;
 const int PulseWire = 1;
 int Threshold = 550;
+SoftwareSerial SoftSerial(2, 3);
+unsigned char buffer[64];                   // buffer array for data receive over serial port
+int count=0;
 
 ADXL345 adxl;
 PulseSensorPlayground pulseSensor;
 
 void setup() {
+  SoftSerial.begin(9600);
   Serial.begin(9600);
   adxl.powerOn();
 
@@ -90,7 +96,19 @@ void loop() {
   // }
 
   int BPM = random(60, 80);
+  
+  if (Serial.available() > 0)
+  {
+    String command = Serial.readString();
 
+    if (command == "G")
+    {
+        Serial.print("43.08");
+        Serial.print(" ");
+        Serial.println("-77.68");
+    }
+  }
+  
   Serial.print(gsr_average);
   Serial.print(" ");
   Serial.print(BPM);
@@ -99,7 +117,19 @@ void loop() {
   Serial.print(" ");
   Serial.print(ay);
   Serial.print(" ");
-  Serial.println(az);
+  Serial.print(az);
+  Serial.print(" ");
+  Serial.print("43.08");
+  Serial.print(" ");
+  Serial.println("-77.68");
+  
+  delay(1000);
+}
 
-  delay(800);
+void clearBufferArray()                     // function to clear buffer array
+{
+    for (int i=0; i<count;i++)
+    {
+        buffer[i]=NULL;
+    }                      // clear all index of array with command NULL
 }

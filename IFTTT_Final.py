@@ -6,7 +6,7 @@ import serial
 import time
 
 
-ser = serial.Serial('COM5', 9600)
+ser = serial.Serial('/dev/ttyACM0', 9600)
 
 EVENT_NAME = "too_bright" 
 KEY = "d23A6rhN16sxMd_kIk0603" #enter your maker key 
