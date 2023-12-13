@@ -49,19 +49,17 @@ Our team embarked on a fascinating project to create a car simulator that goes b
  <li>If the user responded yes, a command was then sent to Wio which would simulate the start of a car engine. </li>
  <li>If no, the loop in Python would repeat after a set period that will ask the question again</li>
  </ul>
+ <br/>
  The following images represent the screen from PushSafer. 
 <br/>
 
-<figure>
+<p float="left">
   <img src="https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a"  width="20%">
 
-</figure>
-<figure>
-  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7" width="20%">
+ <img src="https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7" width="20%">
 
-</figure>
-<figure>
+
   <img src="https://github.com/gautham-2803/Arduino/assets/57102558/dc590d71-de45-4814-8f07-d2bd0a239f87" width="20%">
 
-</figure>
+</p>
 <br/>
