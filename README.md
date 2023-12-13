@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>HCIN720 Group Project</title>
-</head>
-<body>
+
 
 <h1>Car Simulator</h1>
 
@@ -49,6 +41,19 @@ Our team embarked on a fascinating project to create a car simulator that goes b
 
 	<h2>ReadUltrasonic</h2>	
 	//This is used to measure the distance between your car and the car behind. An alert will be issued on the LCD if its too close
-
+ <h2>Remote Start</h2>
+ 
+	 
+ </ul>
+ <li><a href="https://www.pushsafer.com/">Pushsafer</a> was used to send a command through Python to an iOS device that posed the question "Want to start your car?". </li>
+ <li>If the user responded yes, a command was then sent to Wio which would simulate the start of a car engine. </li>
+ <li>If no, the loop in Python would repeat after a set period that will ask the question again</li>
+ </ul>
+ The following images represent the screen from PushSafer. 
+ 
 </body>
 </html>
+![Homescreen_notification](https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a)
+![App_homepage](https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7)
+![Answer_Save](https://github.com/gautham-2803/Arduino/assets/57102558/b8347ec6-69de-4b1d-887a-74370359ccce)
+![Options_PopUp](https://github.com/gautham-2803/Arduino/assets/57102558/dc590d71-de45-4814-8f07-d2bd0a239f87)
