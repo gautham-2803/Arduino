@@ -53,7 +53,7 @@ Our team embarked on a fascinating project to create a car simulator that goes b
 
 
 <figure>
-  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a" alt="Trulli" style="width:100">
+  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a" align="left" width="25">
   <figcaption>Homescreen notification</figcaption>
 </figure>
 ![App_homepage](https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7)
