@@ -51,7 +51,11 @@ Our team embarked on a fascinating project to create a car simulator that goes b
  </ul>
  The following images represent the screen from PushSafer. 
 
-![Homescreen_notification](https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a{width=40px height=400px})
+
+<figure>
+  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a" alt="Trulli" style="width:100">
+  <figcaption>Homescreen notification</figcaption>
+</figure>
 ![App_homepage](https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7)
 ![Answer_Save](https://github.com/gautham-2803/Arduino/assets/57102558/b8347ec6-69de-4b1d-887a-74370359ccce)
 ![Options_PopUp](https://github.com/gautham-2803/Arduino/assets/57102558/dc590d71-de45-4814-8f07-d2bd0a239f87)
