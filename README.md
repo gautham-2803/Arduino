@@ -50,7 +50,7 @@ Our team embarked on a fascinating project to create a car simulator that goes b
  <li>If no, the loop in Python would repeat after a set period that will ask the question again</li>
  </ul>
  The following images represent the screen from PushSafer. 
-<br>
+<br/>
 
 <figure>
   <img src="https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a"  width="25%">
@@ -58,8 +58,10 @@ Our team embarked on a fascinating project to create a car simulator that goes b
 </figure>
 <figure>
   <img src="https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7" width="25%">
-  <figcaption>Homescreen notification</figcaption>
+  <figcaption>Application Home Page</figcaption>
 </figure>
-![App_homepage](https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7)
-![Answer_Save](https://github.com/gautham-2803/Arduino/assets/57102558/b8347ec6-69de-4b1d-887a-74370359ccce)
-![Options_PopUp](https://github.com/gautham-2803/Arduino/assets/57102558/dc590d71-de45-4814-8f07-d2bd0a239f87)
+<figure>
+  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/dc590d71-de45-4814-8f07-d2bd0a239f87" width="25%">
+  <figcaption>Answer Options</figcaption>
+</figure>
+<br/>
