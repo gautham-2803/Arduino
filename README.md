@@ -53,15 +53,15 @@ Our team embarked on a fascinating project to create a car simulator that goes b
 <br/>
 
 <figure>
-  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a"  width="25%">
+  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a"  width="20%">
   <figcaption>Homescreen notification</figcaption>
 </figure>
 <figure>
-  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7" width="25%">
+  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7" width="20%">
   <figcaption>Application Home Page</figcaption>
 </figure>
 <figure>
-  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/dc590d71-de45-4814-8f07-d2bd0a239f87" width="25%">
+  <img src="https://github.com/gautham-2803/Arduino/assets/57102558/dc590d71-de45-4814-8f07-d2bd0a239f87" width="20%">
   <figcaption>Answer Options</figcaption>
 </figure>
 <br/>
