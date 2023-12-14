@@ -75,6 +75,10 @@ void loop() {
       startEngine();
     }
   }
+  
+  // getReadyMessage();
+  // startEngine();
+
 }
 //This function is used to check the presence of an object to the right. It is useful while passing lanes. 
 void checkRight() { 
@@ -222,14 +226,14 @@ void readUltrasonic() {
   Serial.print("Distance in cms: ");
   Serial.println(ultrasonic.RangeInCentimeters);
 
-  if (ultrasonic.RangeInCentimeters <= 5) {
+  if (ultrasonic.RangeInCentimeters >= 5 && ultrasonic.RangeInCentimeters <= 14) {
     tft.fillScreen(TFT_RED);
     tft.setTextColor(TFT_WHITE);
     tft.setTextSize(3);
     tft.setCursor(50, 50);
     tft.drawString("ALERT!", 20, 30);
   } 
-  else if (ultrasonic.RangeInCentimeters <= 15) {
+  else if (ultrasonic.RangeInCentimeters >= 15 && ultrasonic.RangeInCentimeters <= 30) {
     tft.fillScreen(TFT_YELLOW);
     tft.setTextColor(TFT_RED);
     tft.setTextSize(3);
