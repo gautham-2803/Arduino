@@ -24,19 +24,22 @@ Our team embarked on a fascinating project to create a car simulator that goes b
 </video>
 
 <h2>Setup Instructions</h2>
-<h2>Step1: Connect the Circular LED to D2 </h2>
-<h2>Step2: Connect the Ultrasonic Ranger to D4 </h2>
-<h2>Step3: Connect the Digital Light Sensor to the I2C port on the Wio Terminal </h2>
-<h2>Step4: Connect the Temperature and Humidity Sensor to D6 </h2>
-<h2>Step5: Connect the PIR Motion Sensor to D0 </h2>
-<h2>Step6: Attach the Wio to the 3D Printed Truck </h2>
+<ul>
+<li>Step1: Connect the Circular LED to D2 </li>
+<li>Step2: Connect the Ultrasonic Ranger to D4 </li>
+<li>Step3: Connect the Digital Light Sensor to the I2C port on the Wio Terminal </li>
+<li>Step4: Connect the Temperature and Humidity Sensor to D6 </li>
+<li>Step5: Connect the PIR Motion Sensor to D0 </li>
+<li>Step6: Attach the Wio to the 3D Printed Truck </li>
+
+ </ul>
 <br/>
 <br/>
-The below portrays the image representation for step by step connections:
+The below portrays the image representation for step-by-step connections:
 
 <br/>
 <br/>
-![stepbystep](https://github.com/gautham-2803/Arduino/assets/57102558/620f837c-0a32-4d4a-9d79-e465877c3bf7)
+<img src="https://github.com/gautham-2803/Arduino/assets/57102558/620f837c-0a32-4d4a-9d79-e465877c3bf7" width="33%">
 
 
 	
