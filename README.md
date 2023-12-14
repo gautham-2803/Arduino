@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
 
- <body>
 
 <h1>Car Simulator</h1>
 
@@ -65,7 +62,7 @@ The below portrays the image representation for step-by-step connections:
  <h2>Working Principle</h2>
  <h3>Remote Start</h3>
 	 
- </ul>
+ <ul>
  <li><a href="https://www.pushsafer.com/">Pushsafer</a> was used to send a command through Python to an iOS device that posed the question "Want to start your car?". </li>
  <li>If the user responded yes, a command was then sent to Wio which would simulate the start of a car engine. </li>
  <li>If no, the loop in Python would repeat after a set period that will ask the question again</li>
@@ -126,10 +123,9 @@ The below image shows various angles for the final fitted vehicle.
 <h2>Working Video</h2>
 The final prototype is as below:
 <br>
-<video src="https://github.com/gautham-2803/Arduino/assets/57102558/6817db2a-09ae-4dd6-8046-f63643e04d88" >
+<video controls="" width="800" height="500" muted="" loop="" autoplay="" src="https://github.com/gautham-2803/Arduino/assets/57102558/6817db2a-09ae-4dd6-8046-f63643e04d88" type="video/mp4">
 </video>
-</body>
-</html>
+
 
 
 
