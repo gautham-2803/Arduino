@@ -55,7 +55,8 @@ The below portrays the image representation for step-by-step connections:
 
 	
 <h2>Construction Video</h2>
-<video src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" >
+<video controls="" width="800" height="500" muted="" loop="" autoplay="" src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" type="video/mp4">
+
 </video>
 
 
