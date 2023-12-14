@@ -10,7 +10,7 @@ A detailed part list and working principle are listed in the upcoming sections.
 
 <h2>Parts List</h2>
 <p><ul>
-  <li><strong><a href ="https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/"> MOTION_SENSOR </a></strong> To detect the presence of an object while passing left.</li>
+  <li><strong><a href ="https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/"> Motion Sensor</a></strong> To detect the presence of an object while passing left.</li>
   <li><strong><a href ="https://wiki.seeedstudio.com/Grove-Circular_LED/">
 	  Circular LED  </a></strong> To simulate front headlights.</li>
   <li><strong><a href = "https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/">
