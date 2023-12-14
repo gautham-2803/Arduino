@@ -8,7 +8,7 @@
 <h1>Car Simulator</h1>
 
 <h2> Project Description </h2>
-This project was inspired by <strong><a href="https://www.tesla.com/">TESLA</a></strong>. Given the alarming price of TESLA cars, we aimed to design a low-budget prototype that could potentially be a competitor to Chevy or Ford. 
+This project was inspired by <a href="https://www.tesla.com/"><strong>TESLA</strong></a>. Given the alarming price of TESLA cars, we aimed to design a low-budget prototype that could potentially be a competitor to Chevy or Ford. 
 We designed a semi-truck-based car that could mimic the features of a modern-day car such as automatic lights, proximity alerts, blind spot detection, and temperature insights. This was designed using a Wio terminal, 5 external sensors, and 3 buttons. 
 A detailed part list and working principle are listed in the upcoming sections. 
 
@@ -69,7 +69,7 @@ The below portrays the image representation for step-by-step connections:
  <h3>Remote Start</h3>
 	 
  <ul>
- <li><strong><a href="https://www.pushsafer.com/">Pushsafer</a></strong> was used to send a command through Python to an iOS device that posed the question "Want to start your car?". </li>
+ <li><a href="https://www.pushsafer.com/"><strong>Pushsafer</strong></a> was used to send a command through Python to an iOS device that posed the question "Want to start your car?". </li>
  <li>If the user responded yes, a command was then sent to Wio which would simulate the start of a car engine. </li>
  <li>If no, the loop in Python would repeat after a set period that will ask the question again</li>
  </ul>
