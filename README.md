@@ -6,7 +6,7 @@
 Our team embarked on a fascinating project to create a car simulator that goes beyond coding by integrating real-world sensor functionalities into a small 3D-printed truck model. The simulator monitors crucial aspects of a vehicle, including temperature, ultrasonic range, and light conditions. Using a 3D printer, we meticulously crafted a detailed truck model, equipped it with an array of sensors mirroring those found in actual cars, and proceeded to manufacture this miniature marvel.
 	
 <h2>Construction Video</h2>
-<video src="https://github.com/gautham-2803/Arduino/blob/master/Car_Simulator/ConstructionVideo_Compressed.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/gautham-2803/Arduino/blob/master/Car_Simulator/ConstructionVideo_Compressed.mp4" >
 </video>
 	
 <h2>Parts List</h2>
