@@ -4,15 +4,7 @@
 
 <h2> Project Description </h2>
 Our team embarked on a fascinating project to create a car simulator that goes beyond coding by integrating real-world sensor functionalities into a small 3D-printed truck model. The simulator monitors crucial aspects of a vehicle, including temperature, ultrasonic range, and light conditions. Using a 3D printer, we meticulously crafted a detailed truck model, equipped it with an array of sensors mirroring those found in actual cars, and proceeded to manufacture this miniature marvel.
-	
-<h2>Construction Video</h2>
-<video src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" >
-</video>
 
-
-
-
-	
 <h2>Parts List</h2>
 <p><ul>
   <li><strong><a href ="https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/"> MOTION_SENSOR </a></strong> To detect the presence of an object while passing left.</li>
@@ -24,9 +16,29 @@ Our team embarked on a fascinating project to create a car simulator that goes b
 	  Temperature and Humidity Sensor </a></strong> To simulate and measure the ambient and engine temperature.</li>
   <li><strong><a href = "https://wiki.seeedstudio.com/Grove-Digital_Light_Sensor/">
 	  Digital Light Sensor </a></strong> To determine the outdoor light conditions.</li>
-</ul></p>
+</ul>
+</p>
 	
+<h2>Construction Video</h2>
+<video src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" >
+</video>
+
+<h2>Setup Instructions</h2>
 <h2>Step1: Connect the Circular LED to D2 </h2>
+<h2>Step2: Connect the Ultrasonic Ranger to D4 </h2>
+<h2>Step3: Connect the Digital Light Sensor to the I2C port on the Wio Terminal </h2>
+<h2>Step4: Connect the Temperature and Humidity Sensor to D6 </h2>
+<h2>Step5: Connect the PIR Motion Sensor to D0 </h2>
+<h2>Step6: Attach the Wio to the 3D Printed Truck </h2>
+<br/>
+<br/>
+The below portrays the image representation for step by step connections:
+
+<br/>
+<br/>
+![stepbystep](https://github.com/gautham-2803/Arduino/assets/57102558/620f837c-0a32-4d4a-9d79-e465877c3bf7)
+
+
 	
 <h2>Step2: Flashing the light</h2>
 	<h3> This function is used to check the presence of an object to the right. It is useful while passing lanes.</h3>
@@ -63,4 +75,8 @@ Our team embarked on a fascinating project to create a car simulator that goes b
 </p>
 <br/>
 <hr>
+
+<h2>Working Video</h2>
+<video src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" >
+</video>
 
