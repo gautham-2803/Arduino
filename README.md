@@ -39,7 +39,7 @@ The below portrays the image representation for step-by-step connections:
 
 <br/>
 <br/>
-<img src="https://github.com/gautham-2803/Arduino/assets/57102558/620f837c-0a32-4d4a-9d79-e465877c3bf7" width="33%">
+<img src="https://github.com/gautham-2803/Arduino/assets/57102558/620f837c-0a32-4d4a-9d79-e465877c3bf7" width="100%">
 
 
 	
