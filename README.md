@@ -18,10 +18,19 @@ Our team embarked on a fascinating project to create a car simulator that goes b
 	  Digital Light Sensor </a></strong> To determine the outdoor light conditions.</li>
 </ul>
 </p>
-	
-<h2>Construction Video</h2>
-<video src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" >
-</video>
+
+<h2>Features</h2>
+The project was developed with the following features:
+<ul>
+	<li>Simulate the start of the vehicle remotely.</li>
+	<li>Turn on the light automatically by reading the light sensor value.</li>
+	<li>Use the LED to simulate front headlights.</li>
+	<li>Simulate High Beam and Low Beam.</li>
+	<li>Provide an alert to the user if the Engine Temperature is high.</li>
+	<li>Provide a proximity alert based on the car behind.</li>
+	<li>Provide a blind spot audio alert while passing left.</li>
+</ul>
+<hr>
 
 <h2>Setup Instructions</h2>
 <ul>
@@ -41,27 +50,14 @@ The below portrays the image representation for step-by-step connections:
 <br/>
 <img src="https://github.com/gautham-2803/Arduino/assets/57102558/620f837c-0a32-4d4a-9d79-e465877c3bf7" width="100%">
 
+	
+<h2>Construction Video</h2>
+<video src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" >
+</video>
 
-	
-<h2>Step2: Flashing the light</h2>
-	<h3> This function is used to check the presence of an object to the right. It is useful while passing lanes.</h3>
-	
-	<h2>GetReadyMessage</h2>
-	This function is initially executed when there is a remote start command from the user. This simulates systems check and welcome address.
-	
-	<h2>StartEngine</h2>	
-	This function is executed second. This simulates engine start and checks the weather to give notification on it. 
-	
-	<h2>ReadAndLightFront</h2>	
-	This functions turns on light sensor automatically based on the light value. On pressing WIO_5S_PRESS down, the light switches to low beam and high beam, to simulate passing. 
-	
-	<h2>getTemperature</h2>	
-	//this function is used to monitor engine temperature. This gets activated when you press WIO_KEY_B
 
-	<h2>ReadUltrasonic</h2>	
-	//This is used to measure the distance between your car and the car behind. An alert will be issued on the LCD if its too close
- <h2>Remote Start</h2>
- 
+ <h2>Working Principle</h2>
+ <h3>Remote Start</h3>
 	 
  </ul>
  <li><a href="https://www.pushsafer.com/">Pushsafer</a> was used to send a command through Python to an iOS device that posed the question "Want to start your car?". </li>
@@ -77,7 +73,20 @@ The below portrays the image representation for step-by-step connections:
   <img src="https://github.com/gautham-2803/Arduino/assets/57102558/174b7cd9-fdd5-4bb1-8e21-d5edf834b60a"  width="33%"/> <img src="https://github.com/gautham-2803/Arduino/assets/57102558/16f4448e-2ca6-418e-b696-f2128ed980c7" width="33%"/> <img src="https://github.com/gautham-2803/Arduino/assets/57102558/dc590d71-de45-4814-8f07-d2bd0a239f87" width="33%">
 </p>
 <br/>
+<h3>Passing on the left</h3>
+<ul>
+	<li>When WIO_KEY_C is pressed, the motion sensor is enabled to check for blind spot objects. </li>
+	<li>This is done to simulate the indicator camera in cars.</li>
+	<li>If an object is identified, the WIO_BUZZER is set to provide audio feedback in addition to the alert that appears on the terminal </li>
+</ul>
 <hr>
+
+<h3>Rear end proximity detection</h3>
+<ul>
+	<li>The Ultrasonic Ranger is used to simulate rear end proximity detector.</li>
+	<li>The ranger is set to run continuously and provides visual alerts on the terminal if the vehicle behind is close.</li>
+	<li>If the vehicle behind is between 15 to 30m, the alert is issued as "CAR BEHIND", and when the vehicle is closer than that, the alert is issued as "ALERT!".</li>
+</ul>
 
 <h2>Working Video</h2>
 <video src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" >
