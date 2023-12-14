@@ -87,6 +87,35 @@ The below portrays the image representation for step-by-step connections:
 	<li>The ranger is set to run continuously and provides visual alerts on the terminal if the vehicle behind is close.</li>
 	<li>If the vehicle behind is between 15 to 30m, the alert is issued as "CAR BEHIND", and when the vehicle is closer than that, the alert is issued as "ALERT!".</li>
 </ul>
+<hr>
+<h3>Automatic Lights</h3>
+<ul>
+	<li>This was designed based on the automatic headlights in cars. </li>
+	<li>Based on the light value from the digital light sensor, the LED lights up.</li>
+	<li>This is particularly true when it comes to low light values.</li>
+ 	<li> On pressing down WIO_5S_PRESS button, the LED also simulates High and Low Beam.</li>
+	
+</ul>
+<hr>
+<h3>Temperature</h3>
+<ul>
+	<li> The Temperature and Humidity Sensor serves two purposes.</li>
+	<li> During the initial startup, it is used to measure "ambient temperature" and issues visual feedback.</li>
+	<li> The feedback will include either "Beautiful Weather" or "Bad Weather, Drive Safe!" based on the temperature. </li>
+	<li>While the vehicle is running, and when WIO_KEY_B is pressed, the same sensor is used to measure "engine temperature".</li>
+	<li>Visual feedback is provided based on the temperature and the variation is also depicted through changes in colors - Blue for normal and Red for high temperatures. </li>
+</ul>
+<hr>
+
+<h2>Fitting with 3D printed Case</h2>
+The below image shows various angles for the final fitted vehicle. 
+
+<br>
+<br>
+<img src="https://github.com/gautham-2803/Arduino/assets/57102558/6e61344f-4bcf-43bd-a8e7-8debaeb51752" width="100%">
+<hr>
+
+
 
 <h2>Working Video</h2>
 <video src="https://github.com/gautham-2803/Arduino/assets/57102558/046af277-7ecd-4458-945f-b1d749e6d3d6" >
