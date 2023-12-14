@@ -118,6 +118,12 @@ The below image shows various angles for the final fitted vehicle.
 
 
 <h2>Working Video</h2>
-<video src="https://github.com/gautham-2803/Arduino/blob/21feabc6bbcd0cff4f0bacad9c7c05c4b018cf19/Car_Simulator/ConstructionVideo_Compressed.mp4)https://github.com/gautham-2803/Arduino/blob/21feabc6bbcd0cff4f0bacad9c7c05c4b018cf19/Car_Simulator/ConstructionVideo_Compressed.mp4" >
+The final prototype is as below:
+<br>
+<video src="
+https://github.com/gautham-2803/Arduino/assets/57102558/6817db2a-09ae-4dd6-8046-f63643e04d88" >
 </video>
+
+
+
 
