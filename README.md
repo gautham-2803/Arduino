@@ -3,7 +3,10 @@
 <h1>Car Simulator</h1>
 
 <h2> Project Description </h2>
-Our team embarked on a fascinating project to create a car simulator that goes beyond coding by integrating real-world sensor functionalities into a small 3D-printed truck model. The simulator monitors crucial aspects of a vehicle, including temperature, ultrasonic range, and light conditions. Using a 3D printer, we meticulously crafted a detailed truck model, equipped it with an array of sensors mirroring those found in actual cars, and proceeded to manufacture this miniature marvel.
+This project was inspired by <a href="https://www.tesla.com/">TESLA</a>. Given the alarming price of TESLA cars, we aimed to design a low-budget prototype that could potentially be a competitor to Chevy or Ford. 
+We designed a semi-truck-based car that could mimic the features of a modern-day car such as automatic lights, proximity alerts, blind spot detection, and temperature insights. This was designed using a Wio terminal, 5 external sensors, and 3 buttons. 
+A detailed part list and working principle are listed in the upcoming sections. 
+
 
 <h2>Parts List</h2>
 <p><ul>
@@ -120,8 +123,7 @@ The below image shows various angles for the final fitted vehicle.
 <h2>Working Video</h2>
 The final prototype is as below:
 <br>
-<video src="
-https://github.com/gautham-2803/Arduino/assets/57102558/6817db2a-09ae-4dd6-8046-f63643e04d88" >
+<video src="https://github.com/gautham-2803/Arduino/assets/57102558/6817db2a-09ae-4dd6-8046-f63643e04d88" >
 </video>
 
 
