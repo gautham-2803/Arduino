@@ -133,7 +133,7 @@ The final prototype is as below:
 <video controls="" width="800" height="500" muted="" loop="" autoplay="" src="https://github.com/gautham-2803/Arduino/assets/57102558/6817db2a-09ae-4dd6-8046-f63643e04d88" type="video/mp4">
 </video>
 <br>
- The code can be found <a href="https://github.com/gautham-2803/Arduino/tree/master/Car_Simulator">here</a>
+The code can be found <a href="https://github.com/gautham-2803/Arduino/tree/master/Car_Simulator">here</a>
 
 
 
